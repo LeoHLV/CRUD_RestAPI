@@ -1,0 +1,44 @@
+Packagesm EF para banco de dados___________________________________________
+Microsoft.EntityFrameworkCore.InMemory
+icrosoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+
+
+appsettings.json Criar connection String__________________________________
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "ContactsApiConnectionString": "Server=DESKTOP-Q7QC84J\\SQLEXPRESS;Database=ContactDb;Trusted_Connection=true"
+  }
+}
+
+Criando Migrations para o Banco__________________________________________
+
+0 - Pode ser refeito apenas excluindo a pasta Migrations******
+
+1 - abrir nuget Package Mananger terminal
+2 - escreva: Add-Migration "Initial Migration"
+3 - com os migrations criados escreva: Update-Database
+4 - a tabela será criada no Banco de Dados
+5 - Selecionando o DATABASE > pasta Tables > dbo.Contatos > click direito (select top 1000 rows)
+
+**elementos inseridos na pagina do ASP aba de 
+	POST serão adicionados
+	PUT  serão modificados e atualizados
+	DELETE serão deletados colocando a chave Guid criada como "id": 
+
+
+
+
+
+
+
+
+
+
