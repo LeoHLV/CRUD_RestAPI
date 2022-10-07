@@ -1,8 +1,7 @@
 # Contatos_RestAPI
 
 <h3>
-    API Rest Simples com Swagger que armazena dados de contatos no banco SQL Server.<br>
-    • Json testado utilizando a ferramenta Postman.
+    CRUD Rest API com SQL Server, armazena dados de contatos no banco.<br>
 </h3>
 
 <h1 stylesalign="center" width="300px" height="500px">
