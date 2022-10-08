@@ -1,4 +1,4 @@
-# Contatos_RestAPI
+# CRUD_RestAPI (Contatos)
 
 <h3>
     CRUD Rest API com SQL Server, armazena dados de contatos no banco.<br>
